@@ -1,3 +1,11 @@
+new Swiper(".swiper", {
+  direction: "horizontal",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
 const btn = document.getElementById("toggle-btn");
 const brands = document.querySelector(".container");
 const arrow = document.querySelector(".arrow");

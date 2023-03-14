@@ -1,95 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./index.css" />
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </head>
+
   <body>
     <header class="header">
-      <div class="header__left-icons">
-        <div class="header__menu-icon">
-          <img src="./icons/burger.svg" alt="burger" />
-        </div>
-        <div class="header__divider-768">
-          <img src="./icons/divider.svg" alt="divider" />
-        </div>
-        <div class="header__group-icon">
-          <img src="./icons/Group.svg" alt="group" />
-        </div>
-      </div>
-      <div class="header__center-icons">
-        <div class="header__call-icon">
-          <img src="./icons/call.svg" alt="call" />
-        </div>
-        <div class="header__chat-icon">
-          <img src="./icons/chat.svg" alt="chat" />
-        </div>
-        <div class="header__profile-icon">
-          <img src="./icons/profile.svg" alt="profile" />
-        </div>
-      </div>
-      <div class="header__right-icons">
-        <div class="header__divider">
-          <img src="./icons/divider.svg" alt="divider" />
-        </div>
-        <div class="header__repair-icon">
-          <img src="./icons/repair.svg" alt="repair" />
-        </div>
-        <div class="header__check-status-icon">
-          <img src="./icons/checkstatus.svg" alt="check_status" />
-        </div>
-      </div>
+      <p class="header__title">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
     </header>
-    <main>
-      <div class="title">
-        <img class="title__divider" src="./icons/highlight.svg" alt="highlight"/>
-        <h1 class="title__name">Услуги и сервисы</h1>
-        <div class="main-services">
-          <div class="main-services__item repair">
-            <p>Оставить заявку</p> 
-            <img src="./icons/repair.svg" alt="repair" />
+    <div class="swiper swiper-style">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__lenovo"
+              src="./icons_brands/lenovo.png"
+              alt="lenovo" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
           </div>
-          <div class="main-services__item checkstatus">
-            <p>Статус ремонта</p>
-            <img src="./icons/checkstatus.svg" alt="check_status" />
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__lenovo"
+              src="./icons_brands/lenovo.png"
+              alt="lenovo" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__samsung"
+              src="./icons_brands/samsung.png"
+              alt="samsung" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__apple"
+              src="./icons_brands/apple.png"
+              alt="apple" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__viewsonic"
+              src="./icons_brands/viewsonic.png"
+              alt="viewsonic" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__bosch"
+              src="./icons_brands/bosch.png"
+              alt="bosch" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img class="item__hp" src="./icons_brands/hp.png" alt="hp" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img class="acer" src="./icons_brands/acer.png" alt="acer" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img class="item__sony" src="./icons_brands/sony.png" alt="sony" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__lenovo"
+              src="./icons_brands/lenovo.png"
+              alt="lenovo" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__samsung"
+              src="./icons_brands/samsung.png"
+              alt="samsung" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="item">
+            <img
+              class="item__apple"
+              src="./icons_brands/apple.png"
+              alt="apple" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
           </div>
         </div>
       </div>
+    </div>
+    <div class="swiper-pagination swiper-pagination-style"></div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__lenovo"
+              src="./icons_brands/lenovo.png"
+              alt="lenovo" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__lenovo"
+              src="./icons_brands/lenovo.png"
+              alt="lenovo" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__samsung"
+              src="./icons_brands/samsung.png"
+              alt="samsung" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__apple"
+              src="./icons_brands/apple.png"
+              alt="apple" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__viewsonic"
+              src="./icons_brands/viewsonic.png"
+              alt="viewsonic" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__bosch"
+              src="./icons_brands/bosch.png"
+              alt="bosch" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
 
-      <div class="scroll-wrapper">
-        <ul class="scroll">
-          <li class="scroll__item scroll__item_checked"><button>Ремонтируемые бренды</button></li>
-          <li class="scroll__item">
-            <button>Ремонтируемые устройства</button>
-          </li>
-          <li class="scroll__item"><button>Цены на услуги</button></li>
-          <li class="scroll__item"><button>Адреса сервисных центров</button></li>
-          <li class="scroll__item"><button>Специальные цены</button></li>
-        </ul>
-        <button class="reviews">Отзывы</button>
-      </div>
-      <div class="wrapper-text">
-        <div class="text">
-          <div class="text__title">
-            <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
-              можете отремонтировать свой ноутбук Dell с официальной гарантией производителя. </p><p>Мы
-            успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает
-            большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
-            рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-          </div>
-          <div class="read-more-btn">
-            <img class="read-more-btn__arrow" src="./icons/expand.svg" alt="read_more"/>
-            <button class="read-more-btn__title">Читать далее</button>
+        <div class="wrapper-item">
+          <div class="item">
+            <img class="item__hp" src="./icons_brands/hp.png" alt="hp" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
           </div>
         </div>
-        <img class="photo320" src="./img/img320.png" alt="photo320"/>
-        <img class="photo768" src="./img/img768.png" alt="photo768"/>
-        <img class="photo1120" src="./img/img1120.png" alt="photo1120"/>
+        <div class="wrapper-item">
+          <div class="item">
+            <img class="acer" src="./icons_brands/acer.png" alt="acer" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img class="item__sony" src="./icons_brands/sony.png" alt="sony" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__lenovo"
+              src="./icons_brands/lenovo.png"
+              alt="lenovo" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__samsung"
+              src="./icons_brands/samsung.png"
+              alt="samsung" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
+        <div class="wrapper-item">
+          <div class="item">
+            <img
+              class="item__apple"
+              src="./icons_brands/apple.png"
+              alt="apple" />
+            <img class="item__go" src="./icon/go.svg" alt="go" />
+          </div>
+        </div>
       </div>
-    </main>
+      <div class="btn-wrapper">
+        <div class="arrow"><img src="./icon/arrow_up.svg" alt="arrow" /></div>
+        <button id="toggle-btn">Показать все</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
+
+      const swiper = new Swiper(".swiper", {
+        direction: "horizontal",
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

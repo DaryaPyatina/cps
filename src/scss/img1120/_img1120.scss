@@ -1,0 +1,11 @@
+.img1120{
+    @media (min-width: 320px) {
+        display: none;
+    }
+    
+    @media (min-width: 1120px) {
+        display: block;
+        border-radius: 6px;
+    }
+}
+

@@ -7,8 +7,9 @@
         border: 4px solid $elem;
         border-radius: 3px;
         margin-left: -29px;
-        position: absolute;
+        position: relative;
         height: 32px;
+        top: 80px;
         }
 
         @media (min-width: 1120px) {

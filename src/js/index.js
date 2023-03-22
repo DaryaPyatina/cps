@@ -49,13 +49,17 @@ function caseShowHide(wrapper, classShow, classHide, text, arow, arowClass) {
 function openModal(modal, open) {
     modal.style.transition = "all 0.2s linear";
     mainWrapper.style.filter = "blur(5px) invert(0.05)";
-    mainWrapper.style.position = 'fixed'
+    mainWrapper.style.position = 'fixed';
+    mainWrapper.style.top = `-${window.scrollY}px`;
+    
     modal.classList.add(open);
 }
 
 function closeModal(modal, close) {
     modal.classList.remove(close)
     mainWrapper.style.filter = "";
+    mainWrapper.style.position = '';
+    mainWrapper.style.top = '';
 }
 
 burgerMenu.addEventListener('click', () => {

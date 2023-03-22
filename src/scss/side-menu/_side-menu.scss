@@ -44,6 +44,12 @@
         height: 100%;
         flex-direction: column;
         background-color: $bgBody;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+            width: 0;
+          }
+        
 
         @media (min-width: 1120px) {
             box-shadow: none;
@@ -53,6 +59,7 @@
     &__footer{
         padding-left: 24px;
         padding-bottom: 32px;
+        padding-top: 30px;
     }
 
     &__item{

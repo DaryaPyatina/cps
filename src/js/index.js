@@ -49,6 +49,7 @@ function caseShowHide(wrapper, classShow, classHide, text, arow, arowClass) {
 function openModal(modal, open) {
     modal.style.transition = "all 0.2s linear";
     mainWrapper.style.filter = "blur(5px) invert(0.05)";
+    mainWrapper.style.position = 'fixed'
     modal.classList.add(open);
 }
 
